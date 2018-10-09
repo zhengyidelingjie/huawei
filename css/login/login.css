@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #EBEBEB;
+}
+/******header********/
+header{
+	width: 100%;
+	height: 67px;
+	position: relative;
+}
+header img{
+	margin-left: 15%;
+	margin-top: 10px;
+}
+header span{
+	color: black;
+	font-size: 18px;
+	margin-left: 20px;
+	position: absolute;
+	top:22px;
+}
+
+/******main*******/
+main{
+	width: 100%;
+	height: 590px;
+	background: url(../../images/login_bg.png) right;
+	overflow: hidden;
+}
+.box{
+	width: 380px;
+	height: 530px;
+	background: white;
+	margin-left: 63.7%;
+	margin-top: 30px;
+}
+.accountLogin{
+	position: relative;
+}
+.chooseLogin{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 15px;
+}
+#account{
+	color: #B40707;
+	margin-right: 50px;
+	cursor: pointer;
+}
+#scan{
+	margin-left: 50px;
+	cursor: pointer;
+}
+.chooseLogin span{
+	color: #dacfcf;
+}
+.accountLogin input{
+	border: none;
+	outline: none;
+	margin-left: 25px;
+	margin-top: 50px;
+}
+hr{
+	margin: 15px auto;
+	width: 327px;
+}
+.accountLogin p{
+	color: #007dff;
+	font-size: 12px;
+	margin-left:25px ;
+	cursor: pointer;
+}
+#login{
+	width:327px;
+	height: 45px;
+	border-radius: 22.5px;
+	background: #B40707;
+	font-weight: bolder;
+	color: white;
+	cursor: pointer;
+}
+.more{
+	float: right;
+	color: #007DFF;
+	margin-right: 25px;
+	margin-top: 46px;
+	cursor: pointer;
+}
+.registerOrForgot{
+	font-size: 12px;
+	color: #007DFF;
+	text-align: center;
+}
+.registerOrForgot span{
+	color: #DACFCF;
+}
+.registerOrForgot label{
+	cursor: pointer;
+}
+.left-line{
+	width: 97px;
+	height: 1px;
+	background: linear-gradient(to left,#cccccc,#e1e1e1,#FFF);
+	display: inline-block;
+	position: absolute;
+	left: 15px;
+	bottom: -12px;
+}
+.right-line{
+	width: 97px;
+	height: 1px;
+	background: linear-gradient(to right,#cccccc,#e1e1e1,#FFF);
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	bottom: -12px;
+}
+.otherMethod span{
+	position: absolute;
+	left:137px;
+}
+.otherMethod{
+	position: relative;
+}
+.method{
+	position: absolute;
+	bottom: -85px;
+	left: 107px;
+}
+.method span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.qq{
+	background:url(../../images/third_login.png.png) no-repeat -71px -10px;
+}
+.qq:hover{
+	background: url(../../images/third_login.png.png) no-repeat -73px -56px;
+}
+.zfb{
+	background: url(../../images/third_login.png.png) no-repeat -133px -10px;
+}
+.zfb:hover{
+	background:url(../../images/third_login.png.png) no-repeat -133px -56px;
+}
+.wechat{
+	background: url(../../images/third_login.png.png) no-repeat -12px -10px;
+}
+.wechat:hover{
+	background: url(../../images/third_login.png.png) no-repeat -12px -56px;
+}
+.scanLogin{
+	display: none;
+}
+.center{
+	width: 380px;
+	height: 270px;
+}
+.code{
+	display: inline-block;
+	width:160px;
+	height: 160px;
+	background: url(../../images/getqrWeb.png) no-repeat;
+	border: 1px solid black;
+	margin: 90px 110px 0 110px;
+	position: relative;
+}
+.code:hover{
+	animation: left-move 0.5s linear forwards;
+}
+@keyframes left-move{
+	0%{top:0px;left:0px;}
+	100%{top:0px;left:-80px;}
+}
+.help{
+	display: none;
+	background: url(../../images/qrCode-help.png) no-repeat;
+	width:130px;
+	height: 214px;
+	margin-left: 230px;
+	margin-top: -190px;
+}
+.scanLogin .p1{
+	margin: 90px 105px 0 105px;
+	font-size: 12px;	
+}
+.scanLogin .p1 span{
+	color:#00a5ff;
+}
+.scanLogin .p2{
+	font-size: 12px;
+	margin-left: 7%;
+}
+/********footer*********/ 
+footer{
+	width: 960px;
+	margin: 0 auto;
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+} 
+footer #foot{
+	margin-left: 307px;
+	margin-top: 36px;
+}
+footer #foot li{
+	float: left;
+}
+footer #foot li a{
+	color: #999999;
+	margin-right: 14px;
+}
+footer #foot::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+footer p{
+	margin-top: 11px;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,32 @@
+.aside{
+	position: fixed;
+	top: 70px;
+	margin-left: 92%;
+	/*right:80px;*/
+   display: none;
+	
+	
+}
+.aside ul{
+	width: 100px;
+}
+.aside ul li{
+	padding-bottom: 16px;
+	width: 100px;
+	margin-left: 10px;
+	padding-left: 8px;
+	text-align: center;
+	font-size: 12px;
+}
+.aside ul li.current{
+	color: red;
+}
+hr{
+	margin-top: 10px;
+	margin-left: 10px;
+	background: red;
+	width: 80px;
+	height: 1px;
+	border: none;
+	display: none;
+}

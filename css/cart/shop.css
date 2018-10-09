@@ -1,0 +1,416 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	height: 1230px;
+  
+	margin: 0 auto;
+	background:#F5F5F5;
+}
+#header{
+	position: relative;
+	font-size: 14px;
+	background: #F5F5F5;
+}
+#header .h-nav{
+	position: absolute
+	Z-index:1;
+	margin: 0 auto;
+	width: 100%;
+	font-size:12px;
+	background: #FFFFFF;
+	height: 30px;
+	z-index: 10;
+/*	overflow:hidden ;*/
+}
+#header .h-nav ul{
+	margin-left: 100px;
+	/*position: absolute;
+	left: 10px;*/
+}
+#header .h-nav ul > li > a{
+	line-height:30px;
+	float:left;
+	margin-left: 10px;
+	color: #B6B6B6;
+	font-weight: bolder;
+}
+#header .h-nav .h-n-l .more-con{
+	position: absolute;
+	top:30px;
+	/*right:0;*/
+	left: 530px;
+	Z-index:-1;
+	display:none;
+	width: 145px;
+	height: 265px;
+	padding:10px;
+	background-color: #fff;
+	text-align: center;
+	line-height:32px;
+	box-shadow:0px 0px 5px 1px #ccc;
+	z-index: 42;
+}
+#header .h-nav ul > li.more:hover .more-con{
+	display: block;
+}
+#header .h-nav ul > li.more:after{
+	position: absolute;
+	top:11px;
+/*	right:53px;*/
+    left: 650px;
+	content:'';
+	border:4px solid transparent;
+	border-bottom:0;
+	border-top:6px solid #999;
+}
+#header .h-nav .h-n-r {
+	position: absolute;
+	left: 1100px;
+}
+#header .h-nav .h-n-r li{
+	float: left;
+}
+.n-login{
+	position: relative;
+	width: 1200px;
+	height: 40px;
+	border: #A82E2E solid 1px;
+	z-index: 34;
+	top: 84px;
+	margin-bottom: 40px;
+	/*margin-left:110px ;*/
+	margin:0 auto;
+	background: #fefeed;
+}
+.n-login span{
+	display: block;
+	width: 380px;
+	height: 16px;
+	overflow: hidden;
+	margin-left: 10px;
+	font-size: 13px;
+	margin-top: 10px;
+	text-align: center;
+	color: #943a3f;
+	/*margin-top: 100px;*/
+}
+.n-login button{
+	margin-top: -20px;
+	margin-left: 350px;
+	float: left;
+	width: 60px;
+	height: 28px;
+	cursor: pointer;
+	background: #c9141c;
+}.n-login button a{
+	color: white;
+}
+.nav{
+	position: absolute;
+	width: 100%;
+	height: 68px;
+	top: 30px;
+	margin: 0 auto;
+	background: #FFFFFF;
+
+}
+.left{
+	margin-left: 110px;
+	margin-top: 10px;
+}
+.right{
+	background: url(../../images/cart/sprites6.png) -1px 0px;
+	width: 423px;
+	height: 48px;
+	margin-top: -50px;
+	margin-left: 800px;
+}
+.goods{
+	/*margin-left:110px ;*/
+	border: 2px solid white;
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background:#FFFFFF;
+	margin-top: 80px;
+	position: relative;
+	
+	
+}
+.goods i{
+  background: url(../../images/cart/03car.png) no-repeat;
+	background-size:100% ;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+     display: block;
+    left: 550px;
+    top: 130px;
+    z-index: 3;
+}
+.goods span{
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	top: 60%;
+	left: 42%;
+	color: #a4b7b7;
+	font-size: 18px;
+}
+.goods button{
+	position: absolute;
+	top: 72%;
+	left: 45%;
+	width: 120px;
+	height: 44px;
+	text-align: center;
+	background: #ca141d;
+	color: white;
+	
+}
+.single{
+	margin: 0 auto;
+	width: 1200px;
+	height: 240px;
+	background: #FFFFFF;
+	overflow: hidden;
+	/*margin-left: 110px;*/
+	margin-bottom: 40px;
+}
+.single .sing-header{
+	display: block;
+	margin-bottom: 20px;
+	color: black;
+}
+.single ul{
+	width: 100%;
+	height: 200px;
+	
+}
+.single ul :after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.single ul li{
+	float: left;
+	width:14%;
+	height: 200px;
+	margin-left: 50px;
+}
+.single ul li img{
+	float: left;
+	width: 90%;
+	height: 134px;
+}
+.single .sing-name{
+	font-size: 14px;
+	display: block;
+	margin-left: 20px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+.single .sing-price{
+	margin-left: 38px;
+	font-size: 16px;
+}
+.footer{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background:#F0F0F0;
+	/*margin-left: 110px;*/
+	padding-top: 60px;
+	position: relative;
+	}
+.footer .f-header{
+	width: 100%;
+	height: 70px;
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+.footer .f-header  ul {
+	margin-left: 20px;
+}
+.footer .f-header  ul li{
+	width: 280px;
+	height: 70px;
+	line-height: 70px;
+	float: left;
+}
+.footer .f-header ul li a{
+	font-size:20px;
+	display: block;
+	width: 280px;
+	height: 70px;
+	color:#000;
+}
+.footer .f-header ul li a i{
+	display: block;
+	width: 47px;
+	height: 47px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	vertical-align:middle;
+	background:url(../../images/cart/icon.png)no-repeat -0px -147px;
+}
+.footer .f-header ul li a i:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.f-nav{
+	
+	width: 1200px;
+	height: 200px;
+	
+}
+.f-nav ul{
+	width: 150px;
+	height: 200px;
+	float: left;
+	
+}
+.f-nav ul li.f-txt{
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 10px;
+	text-align: center;
+	
+}
+.f-nav ul li ul li{
+	font-size: 13px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+.f-nav ul li ul li:nth-of-type(1){
+	padding-top:16px;
+}
+.f-final .f-number{
+	font-size: 22px;
+	margin-bottom: 9px;
+	
+}
+.f-all{
+	font-size: 12px;
+	margin-bottom: 9px;
+}
+
+.f-line,.f-mess{
+	font-size: 16px;
+	border: 1px solid #CCCCCC;
+	display: block;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 9px;
+	background: white;
+	border-radius: 4px 4px;
+	
+}
+
+.f-line span{
+	position: absolute;
+	top: 6px;
+	right: 17px;
+	color: red;
+}
+.f-mess span{
+	position: absolute;
+	top: 6px;
+	right: 8px;
+	color: red;
+}
+.f-line i{
+	background:url(../../images/cart/icon.png) no-repeat -99px -22px ;
+    display: block;
+    height: 20px;
+    width:30px;
+    position: absolute;
+    top: 6px;
+    left: 17px;
+}
+.f-mess i{
+	background: no-repeat -99px -22px ;
+    display: block;
+    height: 20px;
+    width:30px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+.f-footer{
+	width: 100%;
+	height: 160px;
+	font-size: 12px;
+	color: #CCCCCC;
+	position: relative;
+	background: #e6e6e6;
+	margin-top: -10px;
+}
+.f-footer i{
+	background: url(../../images/cart/flogo.png) no-repeat;
+	display: block;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 120px;
+	
+}
+.f-footer p{
+	width: 740px;
+	height: 20px;
+	position: absolute;
+	top: 60px;
+	left: 230px;
+	margin-left: 10px;
+	
+}
+.f-footer p:nth-of-type(1){
+	margin-top:0px ;
+}
+.f-footer p:nth-of-type(2){
+	margin-top:15px ;
+}
+.f-footer p:nth-of-type(3){
+	margin-top:30px ;
+}
+.f-footer ul{
+	position: absolute;
+	bottom: 43%;
+	left: 930px;
+	
+}
+.f-footer ul li{
+	display: block;
+	width: 68px;
+	height: 24px;
+	float: left;
+	margin-left: 8px;
+	
+}
+.f-footer ul li:nth-of-type(1){
+	background: url(../../images/cart/01.jpg) no-repeat;
+	
+}
+.f-footer ul li:nth-of-type(2){
+	background: url(../../images/cart/02.png)no-repeat;
+	
+}
+.f-footer ul li:nth-of-type(3){
+	background: url(../../images/cart/03.png) no-repeat;
+	
+}
+.f-footer ul li:nth-of-type(4){
+	background: url(../../images/cart/04.png) no-repeat;
+	
+}

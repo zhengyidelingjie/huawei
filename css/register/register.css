@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #f2f2f2;
+}
+/******header********/
+header{
+	width: 100%;
+	height: 67px;
+	background: #333333;
+	position: relative;
+}
+header img{
+	margin-left: 15%;
+	margin-top: 10px;
+}
+header span{
+	color: white;
+	font-size: 18px;
+	margin-left: 20px;
+	position: absolute;
+	top:20px;
+}
+/*****main******/
+main{
+	width: 961px;
+	margin: 30px auto;
+}
+main>label{
+	float: right;
+}
+main label a{
+	color: #007dff;
+}
+main #list::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+main #list li{
+	width: 145px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: white;
+	background: #cccccc;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+main #list .current{
+	background: #b40707;
+}
+main #box{
+	background: white;
+	height: 590px;
+}
+main #box ul{
+	margin-top: 40px;
+}
+main #box ul li{
+	width:420px;
+	height: 44px;
+	border: 1px solid gainsboro;
+	border-radius: 22px;
+	background: #f7f7f7;
+	line-height: 44px;
+	padding-left: 17px;
+	margin: 10px auto;
+	position: relative;
+}
+main #box ul .one{
+	margin-top: 40px;
+}
+main #box li select{
+	position: absolute;
+	left: 140px;
+	top:13px;
+	border: none;
+	outline: none; /*清除select聚焦时候的边框颜色*/
+	background: #f7f7f7;
+}
+main #box ul li label{
+	float: right;
+	padding-right: 17px;
+	color: #54bdfa;
+	cursor: pointer;
+}
+main #box li input{
+	border: 0 none;
+	outline-style: none;
+	background: #f7f7f7;
+	position: absolute;
+	left: 140px;
+	line-height: 44px;
+}
+.submit{
+	color: white;
+	background: #B40707;
+	border-radius: 22px;
+	width: 200px;
+	height: 44px;
+	margin-left:380px ;
+	margin-top: 20px;
+}
+/********验证码*********/
+.piccode{
+	position: relative;
+}
+            #code_img {
+                width: 90px;
+                height: 44px;
+                cursor: pointer;
+                position: absolute;
+                right: 17px;
+                top:0;
+            }
+/********选项卡*********/            
+#email{
+	display: none;
+	overflow: hidden;
+}
+#phoneNum{
+	display: block;
+	overflow: hidden;
+}
+/********footer*********/ 
+footer{
+	width: 960px;
+	margin: 0 auto;
+	color: #999999;
+	text-align: center;
+	font-size: 12px;
+} 
+footer #foot{
+	margin-left: 307px;
+	margin-top: 36px;
+}
+footer #foot li{
+	float: left;
+}
+footer #foot li a{
+	color: #999999;
+	margin-right: 14px;
+}
+footer #foot::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+footer p{
+	margin-top: 11px;
+	margin-bottom: 50px;
+}

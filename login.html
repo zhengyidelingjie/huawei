@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login/login.css" />
+		<link rel="shortcut icon" href="https://www.vmall.com/favicon.ico" />
+
+	</head>
+	<body>
+		<header>
+			<img src="images/huaweiLogo.png">
+			<span>|&nbsp;&nbsp;&nbsp;&nbsp;华为商城</span>
+		</header>
+		
+		<main>
+			<div class="box">
+				<div class="chooseLogin">
+				<label id="account">账号登录</label>
+				<span>|</span>
+				<label id="scan">扫码登录</label></div>
+				<div class="accountLogin">
+					<input type="text" id="usename" placeholder="手机号/邮件地址"/><hr />
+					<input type="password" id="password" placeholder="密码"/><hr />
+					<p>短信验证码登录</p>
+					<input type="submit" id="login" value="登录"/><br />
+					<input type="checkbox" id="remenber"/>记住华为账号<span class="more">更多</span>
+					<div class="registerOrForgot">
+					<label id="register">注册账号</label>
+					<span>|</span>
+				    <label id="forgot">忘记密码？</label></div>
+				    <div class="otherMethod"><i class="left-line"></i><span>其他方式登录</span><i class="right-line"></i></div>
+				    <div class="method">
+				    <span class="qq"></span><span class="zfb"></span><span class="wechat"></span></div>
+				</div>
+				<div class="scanLogin">
+					<div class="center">
+					<span class="code"></span>
+					<span class="help"></span></div>
+					<p class="p1">使用<span>华为移动服务APP</span>扫一扫</p>
+					<p class="p2">若您使用华为手机，请进入“设置”>“华为帐号”扫码登录。</p>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			<ul id="foot">
+				<li><a href="#">华为账号用户协议</a>|&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="#">关于华为账号与隐私的声明</a>|&nbsp;&nbsp;&nbsp;</li>
+				<li><a href="#">常见问题</a></li>
+			</ul>
+			<p>Copyright © 2011-2018  华为软件技术有限公司  版权所有  保留一切权利  苏B2-20070200号 | 苏ICP备09062682号-9</p>
+		</footer>
+		<script src="js/login.js"></script>
+	</body>
+</html>

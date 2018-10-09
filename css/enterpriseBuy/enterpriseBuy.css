@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+    min-width:800px ;
+}
+/*******help********/
+.help{
+	position: fixed;
+	right: 0;
+	top:50%;
+	margin-top: -111px;
+	z-index: 2;
+}
+.help1{
+	position: fixed;
+	right: 0;
+	top:50%;
+	margin-top: -125px;
+	z-index: 2;
+	display: none;
+}
+.help ul{
+	width: 62px;
+	height: 222px;
+	background: white;
+	border-radius: 5px 0 0 5px;
+}
+.help1 ul{
+	width:62px;
+	height: 250px;
+	background: white;
+	border-radius: 5px 0 0 5px;
+}
+.help ul li{
+	font-size: 12px;
+	text-align: center;
+	line-height: 70px;
+}
+.help1 ul li{
+	font-size: 12px;
+	text-align: center;
+	line-height: 60px;
+}
+.help ul li a,.help1 ul li a{
+	color: #666666;
+}
+.help ul li a:hover,.help1 ul li a:hover{
+	color: red;
+}
+.help ul hr,.help1 ul hr{
+	background-color: #aa8361;
+	width: 52px;
+	height: 1px;
+	border: none;
+	margin-left: 5px;
+}
+/********header*********/
+.top{
+	width:1210px;
+	margin: 0 auto;
+}
+.top-left{
+    float: left;
+	margin-top: 7px;
+}
+.top-left::after,.top-right::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.top-left li,.top-right li{
+	float: left;
+	color: #a4a4a4;
+	font-size: 12px;
+}
+.top-left li a,.top-right li a{
+	color: #a4a4a4;
+}
+.top-left li a:hover,.top-right li a:hover{
+	color: red;
+}
+.top-right{
+	float: right;
+	margin-top: 7px;
+}
+.nav{
+position: relative;
+width: 100%;
+height: 77px;
+background: white;
+top:25px;
+}
+.nav h1{
+	float:left;
+	position: absolute;
+    top:0;
+    left:7.9%;
+    cursor: pointer;
+}
+.nav ul{
+	position: absolute;
+	top:32px;
+	left: 407px;
+}
+.nav ul li{
+	float: left;
+	margin-left:27px;
+}
+.nav ul li a:hover{
+	color: #aa8361;
+	border-bottom: 2px solid #aa8361;
+}
+.nav ul li a{
+	color: #333333;
+	font-weight: bold;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+.fixednav{
+	position: fixed;
+	top:0;
+	left: 0;
+	width:100%;
+	z-index:3;
+	box-shadow: 0 0 10px gainsboro;
+}
+#box img{
+	width:100%;
+	height:auto;
+	
+}
+#left,#right{
+	display: inline-block;
+	width:158px;
+	height: 450px;
+	position: absolute;
+	text-align: center;
+	line-height: 450px;
+	font-size:50px;
+	font-weight:900;
+	color: ghostwhite;
+	z-index: 1;
+	display: none;
+	cursor: pointer;
+}
+#left{
+    background: linear-gradient(to right,rgba(0,0,0,0.7), rgba(0,0,0,0)); 
+    left: 0;
+    bottom: 0;
+}
+#right{
+    background: linear-gradient(to left,rgba(0,0,0,0.7), rgba(0,0,0,0)); 
+    right: 0;
+    bottom: 0;
+}
+#wrap{
+	width: 100%;
+	height:450px;
+	position: relative;
+    overflow: hidden;
+}
+#box{
+        		width: 9999px;
+        		position: relative;
+}
+#box li{
+				float: left;
+				cursor: pointer;
+        	}
+        	ol{
+				position: absolute;
+				bottom: 24px;
+				left: 50%;
+				margin-left: -75px;
+			}
+			ol li{
+				width: 45px;
+				height: 5px;
+				margin-right: 5px;
+				float: left;
+				background: white;
+				cursor: pointer;
+			}
+			ol .current{
+				background: red;
+			}
+.banner{
+	margin-top: 15px;
+	position: relative;
+}
+.welcome{
+	position: absolute;
+	top:24px;
+	left: 7.9%;
+	width: 296px;
+	height: 400px;
+	background: white;
+	border-radius: 10px;
+	z-index: 2;
+}
+.welcome .hello{
+	font-size: 14px;
+	margin-left: 48px;
+	margin-top: 25px;
+}
+.welcome .loginOrIdent span:nth-of-type(1){
+	display: inline-block;
+	width:122px;
+	height: 30px;
+	background: url(../../images/enterPrise/enterpriseLogin.png) no-repeat;
+	margin: 20px 23px 0 15px;
+	cursor: pointer;
+	z-index: 100;
+}
+.welcome .loginOrIdent span:nth-of-type(2){
+	display: inline-block;
+	width:122px;
+	height: 30px;
+	background: url(../../images/enterPrise/enterpriseIdent.png) no-repeat;
+	cursor: pointer;
+}
+.welcome .left-line,.welcome .right-line{
+display: inline-block;
+width:50px;
+height:1px;
+background-color:#D8D8D8;
+}
+.welcome .left-line{
+	margin-left: 34px;
+	margin-right: 9px;
+}
+.welcome .right-line{
+	margin-right: 34px;
+	margin-left: 9px;
+}
+.welcome .right{
+	position: relative;
+	font-size: 18px;
+	font-weight: bolder;
+	top:6px;
+}
+.rightUl{
+	width: 255px;
+	margin-left: 23px;
+}
+.rightUl li{
+	float: left;
+	text-align: center;
+	margin-right: 40px;
+	font-size: 13px;
+	padding-top: 23px;
+	
+}
+.rightUl li:nth-of-type(3n){
+	margin-right: 0;
+}
+.step li:nth-of-type(2n){
+	width: 72px;
+	height: 22px;
+	background: url(../../images/enterPrise/next.png) no-repeat;
+	margin-top:10px;
+}
+.step li:nth-of-type(11){
+	margin-right: 0;
+}
+.step li{
+	float: left;
+	text-align: center;
+	margin-right: 33px;
+	width:72px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.step{
+	width: 1122px;
+	margin: 32px auto;
+}
+.step::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+/********section*********/
+section{
+	width: 1210px;
+	margin: 47px auto;
+}
+section div h3{
+	font-size: 23px;
+}
+.box{
+	width: 100%;
+	position: relative;
+	margin-top:33px;
+}
+.menu li{
+	float: left;
+	margin-right: 29px;
+	font-size: 14px;
+}
+.menu::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.menu{
+	margin-left: 580px;
+	margin-top: -20px;
+}
+.menu li .all,.menu li a:hover{
+	color: #aa8361;
+	border-bottom: 2px solid #AA8361;
+}
+.menu li a{
+	color:black;
+}
+.page span:nth-of-type(1){
+	color: #AA8361;
+}
+section>div .page{
+	position: absolute;
+	top:10px;
+	right: 119px;
+}
+.back,.forward{
+	width:40px;
+	height: 20px;
+	border:1px solid #f9f9f9;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	position: absolute;
+}
+.back{
+	border-radius: 10px 0 0 10px;
+	right: 41px;
+	top:10px;
+}
+.forward{
+	border-radius: 0 10px 10px 0;
+	top:10px;
+	right: 0;
+}
+.goods{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 25px;
+}
+.goods ul{
+	position: relative;
+	width: 9999px;
+}
+.goods ul li{
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.goods ul li b{
+	font-size: 14px;
+}
+.goods ul li div{
+	width: 170px;
+	height: 24px;
+	border-radius: 12px;
+	border: 1px solid black;
+	font-size: 14px;
+	margin-left: 8px;
+}
+.goods ul li div span{
+	color: red;
+}
+/*********footer*********/
+.foot-top{
+	width:100%;
+	height: 292px;
+	background: #faf5ef;
+	overflow: hidden;
+}
+.foot-right{
+	width: 1198px;
+	height: 170px;
+	border: 1px dashed #AA8361;
+	border-radius: 10px;
+	margin: 71px auto;
+}
+.foot-right div{
+	width:20px;
+	height: 103px;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-left: 35px;
+	margin-top: 33px;
+}
+.foot-right .line{
+	width:0.5px;
+	height: 110px;
+	border: 0.5px dashed #AA8361;
+	margin-left: 70px;
+	display: inline-block;
+	margin-top: -106px;
+}
+.foot-right ul{
+	margin-left: 120px;
+	margin-top: -116px;
+}
+.foot-right ul li{
+	float: left;
+	margin-right: 110px;
+	text-align: center;
+}
+.foot-right ul li:nth-of-type(4){
+	margin-right: 0;
+}
+.foot-right ul li span{
+	display: inline-block;
+	width:48px;
+	height: 48px;
+}
+.foot-right ul li:nth-of-type(1) span{
+	background: url(../../images/enterPrise/foot1.png) no-repeat;
+}
+.foot-right ul li:nth-of-type(2) span{
+background: url(../../images/enterPrise/foot2.png) no-repeat;
+}
+.foot-right ul li:nth-of-type(3) span{
+	background: url(../../images/enterPrise/foot3.png) no-repeat;
+}
+.foot-right ul li:nth-of-type(4) span{
+	background: url(../../images/enterPrise/foot4.png) no-repeat;
+}
+.foot-right ul li b{
+	font-size: 18px;
+}
+.foot-right ul li i{
+	font-size: 14px;
+	color: #666666;
+	font-style: normal;
+}

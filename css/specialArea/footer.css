@@ -1,0 +1,195 @@
+.footer{
+	width: 1920px;
+	height: 400px;
+	background:#F0F0F0;
+	
+	padding-top: 60px;
+	margin-top: 316%;
+	
+	position: absolute;
+	}
+.footer .f-header{
+	width: 100%;
+	height: 70px;
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+.footer .f-header  ul {
+	margin-left: 20px;
+}
+.footer .f-header  ul li{
+	width: 280px;
+	height: 70px;
+	line-height: 70px;
+	float: left;
+}
+.footer .f-header ul li a{
+	font-size:20px;
+	display: block;
+	width: 280px;
+	height: 70px;
+	color:#000;
+}
+.footer .f-header ul li a i{
+	display: block;
+	width: 47px;
+	height: 47px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	vertical-align:middle;
+	background:url(../../images/areaFooter/icon.png)  no-repeat -0px -147px;
+}
+.footer .f-header ul li a i:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.f-nav{
+	
+	width: 1200px;
+	height: 200px;
+	
+}
+.f-nav ul{
+	width: 150px;
+	height: 200px;
+	float: left;
+	
+}
+.f-nav ul li.f-txt{
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 10px;
+	text-align: center;
+	
+}
+.f-nav ul li ul li{
+	font-size: 13px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+.f-nav ul li ul li:nth-of-type(1){
+	padding-top:16px;
+}
+.f-final .f-number{
+	font-size: 22px;
+	margin-bottom: 9px;
+	
+}
+.f-all{
+	font-size: 12px;
+	margin-bottom: 9px;
+}
+
+.f-line,.f-mess{
+	font-size: 16px;
+	border: 1px solid #CCCCCC;
+	display: block;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 9px;
+	background: white;
+	border-radius: 4px 4px;
+	
+}
+
+.f-line span{
+	position: absolute;
+	top: 6px;
+	right: 17px;
+	color: red;
+}
+.f-mess span{
+	position: absolute;
+	top: 6px;
+	right: 8px;
+	color: red;
+}
+.f-line i{
+	background:url(../../images/areaFooter/icon.png)  no-repeat -99px -22px ;
+    display: block;
+    height: 20px;
+    width:30px;
+    position: absolute;
+    top: 6px;
+    left: 17px;
+}
+.f-mess i{
+	background: url(../../images/areaFooter/icon.png) no-repeat -99px -22px;
+    display: block;
+    height: 20px;
+    width:30px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+.f-footer{
+	width: 100%;
+	height: 160px;
+	font-size: 12px;
+	color: #CCCCCC;
+	position: relative;
+	background: #e6e6e6;
+	margin-top: -10px;
+}
+.f-footer i{
+	background: url(../../images/areaFooter/flogo.png) no-repeat;
+	display: block;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 120px;
+	
+}
+.f-footer p{
+	width: 740px;
+	height: 20px;
+	position: absolute;
+	top: 60px;
+	left: 230px;
+	margin-left: 10px;
+	
+}
+.f-footer p:nth-of-type(1){
+	margin-top:0px ;
+}
+.f-footer p:nth-of-type(2){
+	margin-top:15px ;
+}
+.f-footer p:nth-of-type(3){
+	margin-top:30px ;
+}
+.f-footer ul{
+	position: absolute;
+	bottom: 43%;
+	left: 930px;
+	
+}
+.f-footer ul li{
+	display: block;
+	width: 68px;
+	height: 24px;
+	float: left;
+	margin-left: 8px;
+	
+}
+.f-footer ul li:nth-of-type(1){
+	background: url(../../images/areaFooter/01.jpg) no-repeat;
+	
+}
+.f-footer ul li:nth-of-type(2){
+	background: url(../../images/areaFooter/02.jpg) no-repeat;
+	
+}
+.f-footer ul li:nth-of-type(3){
+	background:  url(../../images/areaFooter/03.jpg)no-repeat;
+	
+}
+.f-footer ul li:nth-of-type(4){
+	background:  url(../../images/areaFoote/04.jpg) no-repeat;
+	
+}
